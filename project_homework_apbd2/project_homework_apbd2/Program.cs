@@ -23,11 +23,11 @@ public class Program
     public static int Max(int[] arr)
     {
         int res = 0;
-        for (int i = 0; i < arr.Length; i++)
+        for (int j = 0; j < arr.Length; j++)
         {
-            if (res < arr[i])
+            if (res < arr[j])
             {
-                res = arr[i];
+                res = arr[j];
             }
         }
 

@@ -19,5 +19,19 @@ public class Program
 
         return res;
     }
+    
+    public static int Max(int[] arr)
+    {
+        int res = 0;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (res < arr[i])
+            {
+                res = arr[i];
+            }
+        }
+
+        return res;
+    }
 }
 
